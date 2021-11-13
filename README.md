@@ -24,14 +24,6 @@
 <li>CSS</li>
 <li>JavaScript</li>
 
-<h1>Future Scope of this Project🔭</h1>
-<li>UI Customization</li>
-<li>PDF Preview & Download</li>
-<li>Search Bar</li>
-<li>QR Code Scanner</li>
-<li>Trash (where user can store their temporarily deleted files)</li>
-<li>Update Profile</li>
-<li>Cross browser support</li>
 
 <h1>Contributors❤</h1>
 <table>
