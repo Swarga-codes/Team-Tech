@@ -48,11 +48,11 @@
           </td>
    
      <td align="center">
-            <a href="https://github.com/Kevin-Aaaquil">
+            <a href="">
               <img src="https://avatars.githubusercontent.com/u/73784677?v=4" width="100px" alt=""/><br />
               <sub><b>Shashank Singh</b></sub>
             </a><br/>
-            <a href="https://github.com/Kevin-Aaaquil">
+            <a href="">
                  💻
             </a>
           </td>
