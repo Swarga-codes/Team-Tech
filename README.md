@@ -23,6 +23,7 @@
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
+<li>Bootstrap</li>
 
 
 <h1>Contributors❤</h1>
