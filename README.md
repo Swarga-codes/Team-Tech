@@ -1,9 +1,9 @@
 # Team-Tech
-# The-Vault-Website
+# Track - Business
 
 <h1>About the Project💙</h1>
 
-<p>Vault is a storage website where users can store important documents for free and can access them easily whenever needed.</p>
+<p>Tech is an e-commerce website with an addtional feature of buying the products after seeing them at our home.</p>
 
 <h1>Aim of the Project🎯</h1>
 
@@ -11,7 +11,7 @@
 
 <h1>Website Link</h1>
 
-### <a href="https://the-vault-gcc.netlify.app/">The-Vault-GCC
+### <a href="https://buylater.netlify.app/">
 
 <h1>Tech Stack Used in the Project💥</h1>
 
@@ -19,11 +19,6 @@
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
-
-### `Back-end`
-<li>Node.js</li>
-<li>MongoDB Compass</li>
-<li>Express.js</li>
 
 <h1>Future Scope of this Project🔭</h1>
 <li>UI Customization</li>
