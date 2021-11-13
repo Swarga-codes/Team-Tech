@@ -11,7 +11,7 @@
 
 <h1>Website Link</h1>
 
-### <a href="https://buylater.netlify.app/">
+### <a href="https://buylater.netlify.app/">TECH
 
 <h1>Tech Stack Used in the Project💥</h1>
 
