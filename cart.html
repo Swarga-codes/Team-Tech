@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+       
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navbar ul li{
+    margin-top: 3px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btn{
+  float: right;
+  margin: -30px 100px;
+ 
+}
+.bt1{
+  margin-right: 26px;
+  background-color: initial;
+  color: white;
+  height: 47px;
+  width: 60px;
+  border: 2px;
+  cursor: pointer;
+}
+.bt2{
+    cursor: pointer;
+  height: 47px;
+  background: orange;
+  color: white;
+  border: 2px solid orange;
+  position: relative;
+    top: -15px;
+}
+header{
+  /* background-image: url('https://t3.ftcdn.net/jpg/02/17/53/70/360_F_217537096_y4l9qhTbLFvQGAbl64dQPEdir2x6MIDB.jpg'); */
+background-image: url('https://t3.ftcdn.net/jpg/01/17/33/22/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 115px;
+}
+.navbar{
+    position: relative;
+    top: 20px;
+}
+.logo{
+    position: relative;
+    top: 17px;
+    left: 26px;
+    color: aliceblue;
+}
+.products-container{
+        max-width: 650px;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .products-container ion-icon{
+        font-size: 25px;
+        color: blue;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .product-header{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 4px solid lightgray;
+        margin: 0 auto;
+    }
+    .product-title{
+        width: 45%;
+    }
+    .price{
+        width: 15%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .quantity{
+        width: 30%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .total{
+        width: 10%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .products{
+        width: 45%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid lightgray;
+    }
+    .products ion-icon{
+        cursor: pointer;
+    }
+    .products{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products img{
+        width: 75px;
+    }
+    .basketTotalContainer{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .basketTotalTitle{
+        width: 30%;
+    }
+    .basketTotal{
+        width: 10%;
+    }
+    .cartbtn{
+        transform: translateX(40%);
+    }
+    .checkout{
+        background: orange;
+    color: white;
+    border: 2px solid orange;
+    height: 43px;
+    /* border-radius: 5px; */
+    font-size: 21px;
+    width: 130px;
+    cursor: pointer;
+    }
+    .buy{
+        background: blue;
+    color: white;
+    border: 2px solid blue;
+    height: 43px;
+    /* border-radius: 5px; */
+    font-size: 21px;
+    width: 130px;
+    margin-left: 82px;
+    cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+        <h1 class="logo">TECH</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+      <div class="btn">
+          <button class="bt1"><i class="bi bi-cart3"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg><span>0</span>
+        </button>
+        <button class="bt2"><a href="log-in.html" target="_blank">Login/Signup</a></button>
+         
+      </div>
+                   
+            </div>
+        </nav>
+      </header>
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="products">
+           
+        </div>
+    </div>
+    <div class="cartbtn">
+    <button class="checkout"><a href="checkout.html"> Checkout</a></button>
+    <button class="buy"><a href="buylater.html"> Buy later</a></button>
+</div>
+<script src="main.js"></script>
+</body>
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
