@@ -59,6 +59,6 @@
           </td>
   </tr>
 </table> -->
-  <li>1. Swarga Raj Dutta</li>
-  <li>2. Ritika Saxena</li>
-  <li>3. Shashank Singh</li>
+  <li>Swarga Raj Dutta</li>
+  <li>Ritika Saxena</li>
+  <li>Shashank Singh</li>
