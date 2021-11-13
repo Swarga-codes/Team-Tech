@@ -27,7 +27,7 @@
 
 
 <h1>Contributors❤</h1>
-<table>
+<!-- <table>
   <tr>
     <td align="center">
             <a href="https://github.com/Swarga-codes">
@@ -58,4 +58,7 @@
             </a>
           </td>
   </tr>
-</table>
+</table> -->
+  <li>1. Swarga Raj Dutta</li>
+  <li>2. Ritika Saxena</li>
+  <li>3. Shashank Singh</li>
